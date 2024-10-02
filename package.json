@@ -1,10 +1,10 @@
 {
-  "name": "luoleiorg",
+  "name": "wangbinorg",
   "private": true,
   "type": "module",
   "author": {
     "name": "@foru17",
-    "email": "i@luolei.org",
+    "email": "admin@wangbin.org",
     "url": "https://github.com/zuqiuxie"
   },
   "scripts": {
