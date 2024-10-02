@@ -7,7 +7,7 @@ import markdownImagePlugin from "./markdownPlugin";
 const RSS: RSSOptions = {
   title: "王彬的独立博客",
   baseUrl: `https://wangbin.org`,
-  copyright: "Copyright (c) 王彬的独立博客",
+  copyright: "王彬的独立博客",
   filename: "rss.xml",
 };
 
@@ -83,19 +83,18 @@ export default defineConfig({
           { text: "哔哩哔哩", link: "https://space.bilibili.com/7388950" },
         ],
       },
-      { text: "关于", link: "https://github.com/zuqixuie" },
+      { text: "关于", link: "https://github.com/zuqiuxie" },
     ],
     socialLinks: [
       { icon: "twitter", link: "https://x.com/luoleiorg" },
-      { icon: "github", link: "https://github.com/zuqixuie" },
+      { icon: "github", link: "https://github.com/zuqiuxie" },
     ],
 
     outlineTitle: "本文导览",
     lastUpdatedText: "最后更新时间",
     footer: {
-      message: `Powered By <a href="https://github.com/zuqixuie">VitePress</a>`,
-      copyright: `Copyright © 2024 | <a href="https://wangbin.org/">LUOLEI.ORG</a><br/>
-      <a href="http://beian.miit.gov.cn/" target="_blank" rel="nofollow" class="d-none d-lg-inline-block">粤ICP备14004235号</a>
+      message: `Powered By <a href="https://github.com/zuqiuxie">VitePress</a>`,
+      copyright: `Copyright © 2024 | <a href="https://wangbin.org/">WANGBIN.ORG</a><br/>
       `,
     },
   },
