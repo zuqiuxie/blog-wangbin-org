@@ -5,15 +5,15 @@ import { rss } from "./genFeed";
 import markdownImagePlugin from "./markdownPlugin";
 
 const RSS: RSSOptions = {
-  title: "罗磊的独立博客",
-  baseUrl: `https://luolei.org`,
-  copyright: "Copyright (c) 罗磊的独立博客",
+  title: "王彬的独立博客",
+  baseUrl: `https://wangbin.org`,
+  copyright: "Copyright (c) 王彬的独立博客",
   filename: "rss.xml",
 };
 
 export default defineConfig({
-  title: "罗磊的独立博客",
-  description: "luolei.org",
+  title: "王彬的独立博客",
+  description: "wangbin.org",
   cleanUrls: true,
   appearance: false,
   ignoreDeadLinks: true,
@@ -83,18 +83,18 @@ export default defineConfig({
           { text: "哔哩哔哩", link: "https://space.bilibili.com/7388950" },
         ],
       },
-      { text: "关于", link: "https://github.com/foru17" },
+      { text: "关于", link: "https://github.com/zuqixuie" },
     ],
     socialLinks: [
       { icon: "twitter", link: "https://x.com/luoleiorg" },
-      { icon: "github", link: "https://github.com/foru17" },
+      { icon: "github", link: "https://github.com/zuqixuie" },
     ],
 
     outlineTitle: "本文导览",
     lastUpdatedText: "最后更新时间",
     footer: {
-      message: `Powered By <a href="https://github.com/foru17/luoleiorg">VitePress</a>`,
-      copyright: `Copyright © 2024 | <a href="https://luolei.org/">LUOLEI.ORG</a><br/>
+      message: `Powered By <a href="https://github.com/zuqixuie">VitePress</a>`,
+      copyright: `Copyright © 2024 | <a href="https://wangbin.org/">LUOLEI.ORG</a><br/>
       <a href="http://beian.miit.gov.cn/" target="_blank" rel="nofollow" class="d-none d-lg-inline-block">粤ICP备14004235号</a>
       `,
     },

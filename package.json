@@ -5,7 +5,7 @@
   "author": {
     "name": "@foru17",
     "email": "i@luolei.org",
-    "url": "https://github.com/foru17/luoleiorg"
+    "url": "https://github.com/zuqiuxie"
   },
   "scripts": {
     "docs:dev": "vitepress dev docs --host --port 5177",
