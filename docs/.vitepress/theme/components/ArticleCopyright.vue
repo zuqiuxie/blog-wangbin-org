@@ -11,7 +11,7 @@
   const categories = computed(() => frontmatter.value.categories);
 
   const authorLink = computed(() => {
-    return `https://luolei.org`;
+    return `https://wangbin.org`;
   });
 
   const articleGithubLink = computed(() => {
@@ -19,7 +19,7 @@
   });
 
   const articleLink = computed(() => {
-    return `https://luolei.org${route.path}`;
+    return `https://wangbin.org${route.path}`;
   });
 
   onMounted(() => {});
